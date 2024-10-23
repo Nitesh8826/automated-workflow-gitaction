@@ -9,5 +9,5 @@ jobs:
   hello_world:
      runs-on: windows-latest
      steps:
-       - name: "hello world"
-         run: echo "hello world"
+       - name: "hello worldd"
+         run: echo "hello worldd"
