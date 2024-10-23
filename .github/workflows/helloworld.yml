@@ -1,0 +1,13 @@
+name: "hello world workflow"
+# controls when the action will run triggers the workflows on push some to production and master branch
+on:
+    push:
+        branches:
+            -master
+            -production
+jobs:
+  hello_world:
+     runs-on: windows-latest
+     steps:
+       - name: "hello world"
+         run: echo "hello world"
